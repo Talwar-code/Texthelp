@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>TextHelp</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.texthelp</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <!-- Inform Xcode of the app group identifier so the main app has access
+         to the shared container.  You'll also need to enable the App
+         Group capability in the project settings. -->
+    <key>com.apple.security.application-groups</key>
+    <array>
+        <string>group.com.example.texthelp</string>
+    </array>
+</dict>
+</plist>
